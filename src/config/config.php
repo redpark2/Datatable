@@ -20,6 +20,7 @@ return array(
         | Supported: string
         |
         */
+       
 
         'class' => 'table table-bordered',
 
@@ -93,8 +94,8 @@ return array(
         |
         */
 
-        'table_view' => 'datatable::template',
-
+        //'table_view' => 'datatable::template',
+        'table_view' => 'Chumper::views.template',
 
         /*
         |--------------------------------------------------------------------------
@@ -106,7 +107,8 @@ return array(
         |
         */
 
-        'script_view' => 'datatable::javascript',
+        //'script_view' => 'datatable::javascript',
+        'script_view' =>  'Chumper::views.javascript',
 
 
     ),
